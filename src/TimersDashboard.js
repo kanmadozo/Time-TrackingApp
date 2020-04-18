@@ -13,15 +13,15 @@ class TimerDashboard extends React.Component {
     this.state = {
       timers: [
         {
-          title: 'Practice Tennis',
-          project: 'Gym Chores',
+          title: 'Make coding',
+          project: 'E-commerce site',
           id: uuid.v4(),
           elapsed: 5456099,
           runningSince: Date.now()
         },
         {
-          title: 'Bake Cake',
-          project: 'Kitchen Chores',
+          title: 'make Trading',
+          project: 'Stone Altcoin',
           id: uuid.v4(),
           elapsed: 1273998,
           runningSince: null
